@@ -126,7 +126,7 @@ h1 {
   padding: 2rem 0.5rem;
 }
 .code {
-  color: var(--main-gray);
+  color: var(--main-red);
   transition: color 0.3s ease-out;
 }
 
@@ -175,4 +175,16 @@ h1 {
   font-size: 2.4rem;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
+}
+
+@media (max-width: 640px) {
+  .nav-list a {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .welcome-section p {
+    font-size: 2rem;
+  }
 }
